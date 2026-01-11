@@ -3,7 +3,6 @@ import { ref } from 'vue'
 import {loginApi} from '@/api/login'
 import { ElMessage } from 'element-plus'
 import { useRouter } from 'vue-router'
-
 let loginForm = ref({username:'', password:''})
 let router = useRouter()
 
